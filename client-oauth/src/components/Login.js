@@ -10,7 +10,7 @@ class Login extends Component {
     // OAuth 인증이 완료되면 authorization code와 함께 callback url로 리디렉션 합니다.
     // 참고: https://docs.github.com/en/free-pro-team@latest/developers/apps/identifying-and-authorizing-users-for-github-apps
 
-    this.GITHUB_LOGIN_URL = 'FILL_ME_IN'
+    this.GITHUB_LOGIN_URL = 'https://github.com/login/oauth/authorize?client_id=b871fdaaf8bfd54c971e'
   }
 
   socialLoginHandler() {
